@@ -1,0 +1,114 @@
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+#Main {
+    background-color: aqua;
+
+    height: 100%;
+    aspect-ratio: 1;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#Title {
+    background-color: blueviolet;
+
+    width: 80vmin;
+    height: 15vmin;
+
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%,-50%);
+}
+
+#Config {
+    background-color: chartreuse;
+
+    width: 80%;
+    height: 7vmin;
+
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%,-50%);
+}
+
+#Grid {
+    background-color: brown;
+
+    width: 60%;
+    aspect-ratio: 1;
+
+    position: absolute;
+    display: grid;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+}
+
+#WidthTitle {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    font-size: 4vmin;
+}
+
+#Width {
+    position: absolute;
+    left: 28%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+}
+
+#FilledTitle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    margin: 0;
+    font-size: 4vmin;
+}
+
+#Filled {
+    background-color: rgb(0, 24, 90);
+
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+
+    height: 75%;
+    aspect-ratio: 1;
+}
+
+.Cell {
+    background-color: chocolate;
+
+    margin: 0;
+    aspect-ratio: 1;
+
+    border: 0.1vmin solid black;
+}
+
+#Center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: darkolivegreen;
+    
+    width: 5%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+}
