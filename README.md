@@ -1,2 +1,2 @@
 # Pixel-Circle-Generator
-A simple website that calculates how to make a perfect circle made of pixels based on its width. It also says how many pixels are needed to draw that circle.
+A simple yet powerful and fully responsive website designed to calculate how to create a perfect circle made of pixels based on your chosen width. The website generates the ideal pixel layout needed to accurately represent the circle, preserving symmetry and visual consistency. In addition to displaying the circle's structure, it also calculates and displays the exact number of pixels needed to draw it. The interface is designed to be intuitive, lightweight and easy to use on any screen size, providing a smooth and optimized experience for desktop computers, tablets and mobile devices.
