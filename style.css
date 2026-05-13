@@ -51,6 +51,16 @@ body,html {
     transform: translate(-50%,-50%);
 }
 
+#Circle {
+    width: 60%;
+    aspect-ratio: 1;
+
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+}
+
 #WidthTitle {
     position: absolute;
     left: 10%;
@@ -68,26 +78,13 @@ body,html {
     margin: 0;
 }
 
-#FilledTitle {
+#Pixels {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(0%,-50%);
     margin: 0;
     font-size: 4vmin;
-}
-
-#Filled {
-    background-color: rgb(0, 24, 90);
-
-    position: absolute;
-    left: 70%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    margin: 0;
-
-    height: 75%;
-    aspect-ratio: 1;
 }
 
 .Cell {
@@ -99,6 +96,18 @@ body,html {
     border: 0.1vmin solid black;
 }
 
+.PaintedCell {
+    background-color: rgb(255, 0, 0);
+
+    margin: 0;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+
+    border: 0.1vmin solid black;
+
+    position: absolute;
+}
+
 #Center {
     position: absolute;
     left: 50%;
@@ -107,8 +116,7 @@ body,html {
 
     background-color: darkolivegreen;
     
-    width: 5%;
+    width: 2%;
     aspect-ratio: 1;
     border-radius: 50%;
-
 }
