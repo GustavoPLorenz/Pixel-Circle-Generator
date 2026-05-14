@@ -45,6 +45,9 @@ function DrawCircle(){
         const X = Math.round(Math.cos(Radians)*Math.trunc(Width/2))
         const Y = Math.round(Math.sin(Radians)*Math.trunc(Width/2))
 
+        if(!Positions.some(pos => pos.every((val, i) => val === [X,Y][i]))) {
+            Positions.push([X,Y]);
+        
         const PaintedCell = document.createElement("div")
 
         PaintedCell.classList.add("PaintedCell")
@@ -55,9 +58,6 @@ function DrawCircle(){
         PaintedCell.style.height = CellWidth+"%"
 
         Circle.appendChild(PaintedCell)
-
-        if(!Positions.some(pos => pos.every((val, i) => val === [X,Y][i]))) {
-            Positions.push([X,Y]);
         }
     }
     Pixels.innerText = "Pixels: "+Positions.length

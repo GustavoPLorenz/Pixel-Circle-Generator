@@ -1,5 +1,6 @@
 body,html {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -119,4 +120,44 @@ body,html {
     width: 2%;
     aspect-ratio: 1;
     border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    #Main {
+        background-color: aqua;
+
+        width: 100%;
+        height: initial;
+        aspect-ratio: 2/3;
+
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #Grid, #Circle {
+        width: 90%;
+    }
+
+    #Config {
+        width: 90%;
+        height: 10%;
+    }
+
+    #WidthTitle {
+        font-size: 7vmin;
+        left: 15%;
+    }
+
+    #Width {
+        left: 37%;
+        height: 30%;
+        margin: 0;
+
+    }
+
+    #Pixels {
+        font-size: 7vmin;
+        left: 50%;
+    }
 }
