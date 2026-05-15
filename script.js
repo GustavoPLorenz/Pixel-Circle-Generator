@@ -1,5 +1,4 @@
 function BuildGrid(){
-    console.log("")
     const Width = parseInt(document.getElementById("Width").value)
     var GridWidth = Width+2
 
@@ -60,7 +59,7 @@ function DrawCircle(){
         Circle.appendChild(PaintedCell)
         }
     }
-    Pixels.innerText = "Pixels: "+Positions.length
+    Pixels.innerText = Positions.length+" pixels"
 
 }
 
