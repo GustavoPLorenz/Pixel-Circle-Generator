@@ -203,14 +203,13 @@ body,html {
         aspect-ratio: 2/3;
 
         position: absolute;
-        top: 50%;
-        transform: translate(-50%,-50%);
+        top: 15%;
+        transform: translate(-50%,0%);
     }
 
     #Title {
-        top: -10%;
+        top: 0%;
         width: 106%;
-        font-size: vmin;
     }
 
     #PixelWord {
@@ -227,11 +226,11 @@ body,html {
 
     #Grid, #Circle {
         width: 90%;
-        top: 57%;
+        top: 70%;
     }
 
     #Config {
-        top: 18%;
+        top: 30%;
         width: 90%;
         height: 10%;
     }

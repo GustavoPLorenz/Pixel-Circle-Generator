@@ -1,5 +1,10 @@
 function BuildGrid(){
     const Width = parseInt(document.getElementById("Width").value)
+
+    if(Width>75 || Width<1){
+        return 0
+    }
+
     var GridWidth = Width+2
 
     if (GridWidth%2 == 0){
