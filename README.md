@@ -1,2 +1,11 @@
-# Pixel-Circle-Generator
-A simple yet powerful and fully responsive website designed to calculate how to create a perfect circle made of pixels based on your chosen width. The website generates the ideal pixel layout needed to accurately represent the circle, preserving symmetry and visual consistency. In addition to displaying the circle's structure, it also calculates and displays the exact number of pixels needed to draw it. The interface is designed to be intuitive, lightweight and easy to use on any screen size, providing a smooth and optimized experience for desktop computers, tablets and mobile devices.
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/431ce358-66de-4464-a340-6fa0e82bcb59" />
+
+Pixel Circle Generator is a simple website that based on the diameter given by the user, assembles a circle made of pixels. Along with the circumference drawing, the number of pixels used in the drawing is also given.
+
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/3ddb271d-bca2-4f8f-8127-d77b360a338f"/>
+
+To calculate the position (X, Y) of each pixel used, the sine for Y and cosine for X of different angles are used along with the radius (half the value given by the user).
+
+As a diameter limit is set 75 pixels, since from this number the pixels become very small, making it difficult to see them.
+
+Made for Hackclub #Beest
